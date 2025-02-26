@@ -1,3 +1,6 @@
+# This program checks if there exists an increasing subsequence of length three in a given list of numbers.
+# It uses two variables (first and second) to track the smallest and second smallest numbers found so far.
+# If a third number greater than both is found, it returns True; otherwise, it returns False.
 def increasingTriplet(nums):
     first = second = float('inf')
 
